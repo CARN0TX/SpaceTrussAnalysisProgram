@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{3f7ab87a-d2f6-4471-8491-7568dc128f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibraryEXH">
+      <UniqueIdentifier>{b40ef10c-952b-4add-9e48-d63d18a8cdf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elementresponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nodalresponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="truss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalErrorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibraryEXH\arraybasecontainerEXH.cpp">
+      <Filter>LibraryEXH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibraryEXH\clockEXH.cpp">
+      <Filter>LibraryEXH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibraryEXH\fileioEXH.cpp">
+      <Filter>LibraryEXH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibraryEXH\getinteractiveEXH.cpp">
+      <Filter>LibraryEXH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibraryEXH\GlobalErrorHandler.cpp">
+      <Filter>LibraryEXH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibraryEXH\parserEXH.cpp">
+      <Filter>LibraryEXH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LibraryEXH\printtableEXH.cpp">
+      <Filter>LibraryEXH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="truss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elementresponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nodalresponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalErrorHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\arraybasecontainerEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\ArrayContainersEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\clockEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\fileioEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\getinteractiveEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\GlobalErrorHandler.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\matrixcontainerEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\parserEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\printtableEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\TGetinteractiveEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LibraryEXH\vectorcontainerEXH.h">
+      <Filter>LibraryEXH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MatToolBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Test Cases\01thermal.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+    <Text Include="Test Cases\3dtruss.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Test Cases\01thermal.out">
+      <Filter>Data Files</Filter>
+    </None>
+    <None Include="Test Cases\3dtruss.out">
+      <Filter>Data Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

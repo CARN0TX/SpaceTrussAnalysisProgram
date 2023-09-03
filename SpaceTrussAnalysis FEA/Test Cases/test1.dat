@@ -1,0 +1,26 @@
+*heading
+Example 6-2-4 (units: lb, in)
+*control
+** # of nodes, # of elements, #debugging level
+4 6 1
+*nodal coordinates
+** node #, x-coordinate, y-coordinate
+1 0.0   -180.0
+2 0.0    0.0
+3 120.0  0.0
+4 120.0 -180.0
+*nodal fixity
+** node #, x-fixity, y-fixity, x-force, y-force
+1 0 0 0.0  0.0
+2 0 0 0.0 -4000.0
+3 1 1 0.0  0.0
+4 1 0 0.0  0.0
+*element data
+** element #, start node#, end node#, x/s area, young's modulus
+1 1 4 1.2 30e6
+2 2 3 1.2 30e6
+3 2 1 1.2 30e6
+4 3 4 1.2 30e6
+5 1 3 1.2 30e6
+6 2 4 1.2 30e6
+*end

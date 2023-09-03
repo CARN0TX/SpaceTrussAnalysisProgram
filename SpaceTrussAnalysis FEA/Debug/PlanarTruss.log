@@ -1,0 +1,4 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  truss.cpp
+D:\OneDrive - smail.iitpkd.ac.in\IIT PKD\Semester 6\OONA_Summer\Final Project\Final Submission\SpaceTrussAnalysis FEA\PlanarTruss-WEH\truss.cpp(351,44): warning C4101: 'err': unreferenced local variable
+  PlanarTruss.vcxproj -> D:\OneDrive - smail.iitpkd.ac.in\IIT PKD\Semester 6\OONA_Summer\Final Project\Final Submission\SpaceTrussAnalysis FEA\PlanarTruss-WEH\Debug\PlanarTruss.exe

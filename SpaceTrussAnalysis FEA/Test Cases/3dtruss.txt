@@ -1,0 +1,26 @@
+*spacetruss
+*heading
+units: in, lb, F
+*control
+** # of nodes, # of elements, #debugging level
+4 3 0
+*nodal coordinates
+** node #, x-coordinate, y-coordinate, z-coordinate
+1 72.0 0.0 0.0
+2 72.0 108.0 0.0
+3 0.0 108.0 36.0
+4 0.0 0.0 84.0
+*nodal fixity
+** node #, x-fixity, y-fixity, y-fixity, x-disp value, y-disp value, z-disp value
+1 1 1 1 0.0 0.0 0.0
+3 1 1 1 0.0 0.0 0.0
+4 1 1 1 0.0 0.0 0.0
+*nodal loads
+** node #, x-force, y-force, z-force, temperature change
+2 0.0 0.0 -4000.0 0.0
+*element data
+** element #, start node#, end node#, x/s area, young's modulus
+1 1 2 1.44 1.015e7 0
+2 3 2 1.44 1.015e7 0
+3 4 2 1.44 1.015e7 0
+*end

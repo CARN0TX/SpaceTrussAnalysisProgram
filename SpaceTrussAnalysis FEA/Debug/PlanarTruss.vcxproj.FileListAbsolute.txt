@@ -1,0 +1,5 @@
+D:\OneDrive - smail.iitpkd.ac.in\IIT PKD\Semester 6\OONA_Summer\Final Project\PlanarTruss-WEH\Debug\PlanarTruss.exe
+C:\Users\Ravi\OneDrive\Desktop\Mechanical Loading\PlanarTruss-WEH\Debug\PlanarTruss.exe
+D:\OneDrive - smail.iitpkd.ac.in\IIT PKD\Semester 6\OONA_Summer\Final Project\Thermal Loading\PlanarTruss-WEH\Debug\PlanarTruss.exe
+D:\OneDrive - smail.iitpkd.ac.in\IIT PKD\Semester 6\OONA_Summer\Final Project\04Nodal Reactions\PlanarTruss-WEH\Debug\PlanarTruss.exe
+D:\OneDrive - smail.iitpkd.ac.in\IIT PKD\Semester 6\OONA_Summer\Final Project\Final Submission\SpaceTrussAnalysis FEA\PlanarTruss-WEH\Debug\PlanarTruss.exe

@@ -1,0 +1,67 @@
+
+		--------------------------------------------
+		        Planar Truss Analysis Program       
+		Introduction to Structural Analysis & Design
+		          (c) 2000-23, S. D. Rajan          
+		        Enhanced By: Ravi Chaudhary         
+		--------------------------------------------
+
+PROBLEM SIZE
+------------
+   Number of nodes : 4
+Number of elements : 3
+
+NODAL COORDINATES
+-----------------
+Node   X-Coordinate    Y-Coordinate    Z-Coordinate
+----   ------------    ------------    ------------
+   1             72               0               0
+   2             72             108               0
+   3              0             108              36
+   4              0               0              84
+
+NODAL FIXITIES
+--------------
+Node   X-Fixity    Y-Fixity    Z-Fixity
+----   --------    --------    --------
+   1          1           1           1
+   2          0           0           0
+   3          1           1           1
+   4          1           1           1
+
+NODAL FORCES
+------------
+Node    X-Force     Y-Force     Z-Force     Delta T
+----    -------     -------     -------     -------
+   1          0           0           0           0
+   2          0           0           0           0
+   3          0           0           0           0
+   4          0           0           0           0
+
+===================== FE RESULTS ========================
+
+NODAL DISPLACEMENTS
+-------------------
+Node   X-Displacement    Y-Displacement    Z-Displacement
+----   --------------    --------------    --------------
+   1                0                 0                 0
+   2                0                 0                 0
+   3                0                 0                 0
+   4                0                 0                 0
+
+ELEMENT RESPONSE  (Tension is positive)
+----------------
+Element         Strain         Stress         Force
+-------        -------        -------        ------
+      1              0              0             0
+      2              0              0             0
+      3              0              0             0
+
+NODAL Reactions
+---------------
+Node   X-Reaction    Y-Reaction    Z-Reaction
+----   ----------    ----------    ----------
+   1            0             0             0   
+   2   
+   3            0             0             0   
+   4            0             0             0   

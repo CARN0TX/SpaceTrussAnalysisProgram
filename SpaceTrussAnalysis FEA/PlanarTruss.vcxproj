@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2294E1D8-C83C-4374-A14F-1C342898FBC1}</ProjectGuid>
+    <RootNamespace>PlanarTruss</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>__RAJANMETER;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\LibraryEXH;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>__RAJANMETER;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.;..\LibraryEXH;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\LibraryEXH\arraybasecontainerEXH.cpp" />
+    <ClCompile Include="..\LibraryEXH\clockEXH.cpp" />
+    <ClCompile Include="..\LibraryEXH\fileioEXH.cpp" />
+    <ClCompile Include="..\LibraryEXH\getinteractiveEXH.cpp" />
+    <ClCompile Include="..\LibraryEXH\GlobalErrorHandler.cpp" />
+    <ClCompile Include="..\LibraryEXH\parserEXH.cpp" />
+    <ClCompile Include="..\LibraryEXH\printtableEXH.cpp" />
+    <ClCompile Include="element.cpp" />
+    <ClCompile Include="elementresponse.cpp" />
+    <ClCompile Include="LocalErrorHandler.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="nodalresponse.cpp" />
+    <ClCompile Include="node.cpp" />
+    <ClCompile Include="truss.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\LibraryEXH\arraybasecontainerEXH.h" />
+    <ClInclude Include="..\LibraryEXH\ArrayContainersEXH.h" />
+    <ClInclude Include="..\LibraryEXH\clockEXH.h" />
+    <ClInclude Include="..\LibraryEXH\fileioEXH.h" />
+    <ClInclude Include="..\LibraryEXH\getinteractiveEXH.h" />
+    <ClInclude Include="..\LibraryEXH\GlobalErrorHandler.h" />
+    <ClInclude Include="..\LibraryEXH\matrixcontainerEXH.h" />
+    <ClInclude Include="..\LibraryEXH\parserEXH.h" />
+    <ClInclude Include="..\LibraryEXH\printtableEXH.h" />
+    <ClInclude Include="..\LibraryEXH\TGetinteractiveEXH.h" />
+    <ClInclude Include="..\LibraryEXH\vectorcontainerEXH.h" />
+    <ClInclude Include="..\MatToolBox.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="element.h" />
+    <ClInclude Include="elementresponse.h" />
+    <ClInclude Include="LocalErrorHandler.h" />
+    <ClInclude Include="nodalresponse.h" />
+    <ClInclude Include="node.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="truss.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Test Cases\01thermal.txt" />
+    <Text Include="Test Cases\3dtruss.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Test Cases\01thermal.out" />
+    <None Include="Test Cases\3dtruss.out" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
